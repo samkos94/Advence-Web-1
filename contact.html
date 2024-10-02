@@ -4,19 +4,29 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>The Striped Umbrella</title>
+    <link rel= "stylesheet" href="css/style.css">
 </head>
 <body> 
-    <div class="container"></div>
-    <header>
-        <img src="assets/images/su_banner.gif" alt="Banner Image">
-        <nav id="main-nav">           
-            <li><a href= "index.html">Home</a></li>
-            <li><a href= "about.html">About Us</a></li>
-            <li><a href= "services.html">Our Services</a></li>
-            <li><a href= "contact.html">Contact Us</a></li>
-        </nav>
-    </header>
-
+    <div class="container">
+        <header>
+            <img class = "header-img" img src="assets/images/su_banner.gif" alt="Banner Image">
+            <nav>
+                <ul class="nav-ul">
+                    <li>
+                        <a class="nav-stickers" href="index.html">Home</a>
+                    </li>
+                    <li>
+                        <a class="nav-stickers" href="about.html">About Us</a>
+                    </li>
+                    <li>
+                        <a class="nav-stickers" href="services.html">Our Services</a>
+                    </li>
+                    <li>
+                        <a class="nav-stickers" href="contact.html">Contact Us</a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
      
 <h2>Contact Us:</h2>
 
@@ -55,6 +65,8 @@
         </fieldset>
 
         <fieldset><br>
+
+            <div class="div-input">
             <legend>Your Message</legend>
             <label for="referral">How did you hear about us?</label>
             <select id="referral" name="referral">
@@ -63,6 +75,8 @@
                 <option value="tv">TV Adv.</option>
                 <option value="other">Other</option>
             </select>
+        </div>
+
 <div><br>
 
             <label>Would you like to subscribe to our newsletter?</label>
